@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlightPool</title>
+    <meta name="description" content="A new and energetic airline that provides passenger air transportation services on small, compact aircraft">
+    <meta name="keywords" content="flight,book,russia,fly,airline,aircraft">
+    <link rel="icon" type="image/x-icon" href="./media1/images/307246.svg">
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="./media1/fontawesome-free-5.14.0-web/css/all.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__inner">
+            <div class="logo">
+                <img class="test-0-logo" width="120" src="./media1/logo.png" alt="Logo">
+                <a href="index.html"><h1 class="logo__title fs-700">FlightPool</h1></a>
+            </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <nav class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list__item">
+                        <a href="index.html" class="fs-500 menu-list__link">Home</a>
+                    </li>
+                    <li class="menu-list__item">
+                        <a href="#" class="test-0-nav-1 fs-500 menu-list__link"><i class="fas fa-ad"></i> Promotions</a>
+                    </li>
+                    <li class="menu-list__item">
+                        <a href="#" class="test-0-nav-2 fs-500 menu-list__link active"><i class="fas fa-search"></i> Search</a>
+                    </li>
+                    <li class="menu-list__item">
+                        <a href="#" class="test-0-nav-3 fs-500 text- menu-list__link"><i class="fas fa-list-alt"></i> Check-in for the flight</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="mobile-menu">
+                <ul class="mobile-menu-list">
+                    <li class="mobile-menu-list__item">
+                        <a href="#" class="test-0-nav-1 mobile-menu-list__link"><i class="fas fa-ad"></i> Promotions</a>
+                    </li>
+                    <li class="mobile-menu-list__item">
+                        <a href="#" class="test-0-nav-2 mobile-menu-list__link"><i class="fas fa-search"></i> Search</a>
+                    </li>
+                    <li class="mobile-menu-list__item">
+                        <a href="#" class="test-0-nav-3 mobile-menu-list__link"><i class="fas fa-list-alt"></i> Check-in for the flight</a>
+                    </li>
+                    <li class="mobile-menu-list__item">
+                        <a href="profile.html" class="test-0-nav-4 mobile-menu-list__link test-0-nav-4"><i class="fas fa-user"></i> Personal account</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="profile.html" class="pc-profile primary-btn test-0-nav-4"><i class="fas fa-user"></i> Personal account</a>
+        </div>
+    </header>
+    <main class="search-main">
+        <section class="search-results">
+            <div class="container">
+                <h2 class="search-title">Search Results</h2>
+                <div class="flight-cards__wrapper">
+                    <div class="flight-card" id="1">
+                        <div class="flight-card__icon"><i class="fas fa-plane"></i></div>
+                        <div class="flight-card__body">
+                            <p class=" flight-card__info flight-card__number">
+                                <span class="flight-card__info-title">Flight Number: </span>
+                                <span class="test-4-fn">21</span>
+                            </p>
+                            <p class=" flight-card__info flight-card__aircraft">
+                                <span class="flight-card__info-title">Aircraft: </span>
+                                <span class="test-4-at">CRJ-200</span>
+                            </p>
+                            <p class=" flight-card__info flight-card__depature-date"><span class="flight-card__info-title">Departure Date: </span>
+                                <span class="test-4-dd">22.02.2024</span></p>
+                            <p class="flight-card__info flight-card__departure-time"><span class="flight-card__info-title">Departure Time: </span>
+                                <span class="test-4-dt">16:24</span></p>
+                            <p class="flight-card__info flight-card__arrival-time"><span class="flight-card__info-title">Arrival Time: </span>
+                                <span class="test-4-at">24.02.2024</span></p>
+                            <p class=" flight-card__info flight-card__travel-time"><span class="flight-card__info-title">Travel Time: </span>
+                                <span class="test-4-ft">17:02</span></p>
+                        </div>
+                        <div class="flight-card__footer">
+                            <p class="flight-card__info flight-card__footer-elem flight-card__cost"><span class="flight-card__info-title">Cost: </span><span class="test-4-fp">100$</span></p>
+                            <p class="flight-card__info flight-card__footer-elem flight-card__departure-probability"><span class="flight-card__info-title">Departure Probability: </span><span class="test-4-fh">50%</span></p>
+                        </div>
+                    </div>
+                    <div class="flight-card" id="2">
+                        <div class="flight-card__icon"><i class="fas fa-plane"></i></div>
+                        <div class="flight-card__body">
+                            <p class=" flight-card__info flight-card__number">
+                                <span class="flight-card__info-title">Flight Number: </span>
+                                <span class="test-4-fn">22</span>
+                            </p>
+                            <p class=" flight-card__info flight-card__aircraft">
+                                <span class="flight-card__info-title">Aircraft: </span>
+                                <span class="test-4-at">CRJ-200</span>
+                            </p>
+                            <p class=" flight-card__info flight-card__depature-date"><span class="flight-card__info-title">Departure Date: </span>
+                                <span class="test-4-dd">22.02.2024</span></p>
+                            <p class="flight-card__info flight-card__departure-time"><span class="flight-card__info-title">Departure Time: </span>
+                                <span class="test-4-dt">16:24</span></p>
+                            <p class="flight-card__info flight-card__arrival-time"><span class="flight-card__info-title">Arrival Time: </span>
+                                <span class="test-4-at">24.02.2024</span></p>
+                            <p class=" flight-card__info flight-card__travel-time"><span class="flight-card__info-title">Travel Time: </span>
+                                <span class="test-4-ft">17:02</span></p>
+                        </div>
+                        <div class="flight-card__footer">
+                            <p class="flight-card__info flight-card__footer-elem flight-card__cost"><span class="flight-card__info-title">Cost: </span><span class="test-4-fp">100$</span></p>
+                            <p class="flight-card__info flight-card__footer-elem flight-card__departure-probability"><span class="flight-card__info-title">Departure Probability: </span><span class="test-4-fh">50%</span></p>
+                        </div>
+                    </div>
+                    <div class="flight-card" id="3">
+                        <div class="flight-card__icon"><i class="fas fa-plane"></i></div>
+                        <div class="flight-card__body">
+                            <p class=" flight-card__info flight-card__number">
+                                <span class="flight-card__info-title">Flight Number: </span>
+                                <span class="test-4-fn">23</span>
+                            </p>
+                            <p class=" flight-card__info flight-card__aircraft">
+                                <span class="flight-card__info-title">Aircraft: </span>
+                                <span class="test-4-at">CRJ-200</span>
+                            </p>
+                            <p class=" flight-card__info flight-card__depature-date"><span class="flight-card__info-title">Departure Date: </span>
+                                <span class="test-4-dd">22.02.2024</span></p>
+                            <p class="flight-card__info flight-card__departure-time"><span class="flight-card__info-title">Departure Time: </span>
+                                <span class="test-4-dt">16:24</span></p>
+                            <p class="flight-card__info flight-card__arrival-time"><span class="flight-card__info-title">Arrival Time: </span>
+                                <span class="test-4-at">24.02.2024</span></p>
+                            <p class=" flight-card__info flight-card__travel-time"><span class="flight-card__info-title">Travel Time: </span>
+                                <span class="test-4-ft">17:02</span></p>
+                        </div>
+                        <div class="flight-card__footer">
+                            <p class="flight-card__info flight-card__footer-elem flight-card__cost"><span class="flight-card__info-title">Cost: </span><span class="test-4-fp">100$</span></p>
+                            <p class="flight-card__info flight-card__footer-elem flight-card__departure-probability"><span class="flight-card__info-title">Departure Probability: </span><span class="test-4-fh">50%</span></p>
+                        </div>
+                    </div>
+                    <div class="flight-card" id="4">
+                        <div class="flight-card__icon"><i class="fas fa-plane"></i></div>
+                        <div class="flight-card__body">
+                            <p class=" flight-card__info flight-card__number">
+                                <span class="flight-card__info-title">Flight Number: </span>
+                                <span class="test-4-fn">24</span>
+                            </p>
+                            <p class=" flight-card__info flight-card__aircraft">
+                                <span class="flight-card__info-title">Aircraft: </span>
+                                <span class="test-4-at">CRJ-200</span>
+                            </p>
+                            <p class=" flight-card__info flight-card__depature-date"><span class="flight-card__info-title">Departure Date: </span>
+                                <span class="test-4-dd">22.02.2024</span></p>
+                            <p class="flight-card__info flight-card__departure-time"><span class="flight-card__info-title">Departure Time: </span>
+                                <span class="test-4-dt">16:24</span></p>
+                            <p class="flight-card__info flight-card__arrival-time"><span class="flight-card__info-title">Arrival Time: </span>
+                                <span class="test-4-at">24.02.2024</span></p>
+                            <p class=" flight-card__info flight-card__travel-time"><span class="flight-card__info-title">Travel Time: </span>
+                                <span class="test-4-ft">17:02</span></p>
+                        </div>
+                        <div class="flight-card__footer">
+                            <p class="flight-card__info flight-card__footer-elem flight-card__cost"><span class="flight-card__info-title">Cost: </span><span class="test-4-fp">100$</span></p>
+                            <p class="flight-card__info flight-card__footer-elem flight-card__departure-probability"><span class="flight-card__info-title">Departure Probability: </span><span class="test-4-fh">50%</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="select-flight-section">
+            <div class="container">
+                <h2>Selected Flights</h2>
+                <div class="select-flight-section__inner">
+                    <div class="select-flight-section__title">Selected to there: <div id="display-selected-there"></div></div>
+                    <div class="select-flight-section__title">Selected to return: <div id="display-selected-return"></div></div>
+                </div>
+                <a href="booking.html" class="test-4-bsb primary-btn">Go To Booking</a>
+            </div>
+        </section>
+    </main>
+    <script src="search.js"></script>
+</body>
+</html>

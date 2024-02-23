@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="booking.css">
+    <link rel="stylesheet" href="./media1/fontawesome-free-5.14.0-web/css/all.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__inner">
+            <div class="logo">
+                <img class="test-0-logo" width="120" src="./media1/logo.png" alt="Logo">
+                <a href="index.html"><h1 class="logo__title fs-700">FlightPool</h1></a>
+            </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <nav class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list__item">
+                        <a href="index.html" class="fs-500 menu-list__link">Home</a>
+                    </li>
+                    <li class="menu-list__item">
+                        <a href="#" class="test-0-nav-1 fs-500 menu-list__link"><i class="fas fa-ad"></i> Promotions</a>
+                    </li>
+                    <li class="menu-list__item">
+                        <a href="search.html" class="test-0-nav-2 fs-500 menu-list__link"><i class="fas fa-search"></i> Search</a>
+                    </li>
+                    <li class="menu-list__item">
+                        <a href="#" class="test-0-nav-3 fs-500 text- menu-list__link"><i class="fas fa-list-alt"></i> Check-in for the flight</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="mobile-menu">
+                <ul class="mobile-menu-list">
+                    <li class="mobile-menu-list__item">
+                        <a href="#" class="test-0-nav-1 mobile-menu-list__link"><i class="fas fa-ad"></i> Promotions</a>
+                    </li>
+                    <li class="mobile-menu-list__item">
+                        <a href="search.html" class="test-0-nav-2 mobile-menu-list__link"><i class="fas fa-search"></i> Search</a>
+                    </li>
+                    <li class="mobile-menu-list__item">
+                        <a href="#" class="test-0-nav-3 mobile-menu-list__link"><i class="fas fa-list-alt"></i> Check-in for the flight</a>
+                    </li>
+                    <li class="mobile-menu-list__item">
+                        <a href="profile.html" class="test-0-nav-4 mobile-menu-list__link test-0-nav-4"><i class="fas fa-user"></i> Personal account</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="profile.html" class="pc-profile primary-btn test-0-nav-4"><i class="fas fa-user"></i> Personal account</a>
+        </div>
+    </header>
+    <main>
+        <section class="flights">
+            <div class="container">
+                <div class="flight-cards__wrapper">
+                    <div class="flight-card" id="4">
+                        <div class="flight-card__icon"><i class="fas fa-plane"></i></div>
+                        <div class="flight-card__body">
+                            <p class=" flight-card__info flight-card__number">
+                                <span class="flight-card__info-title">Flight Number: </span>
+                                <span class="test-5-fc">21</span>
+                            </p>
+                            <p class="flight-card__info flight-card__aircraft">
+                                <span class="flight-card__info-title">City Departure: </span>
+                                <span class="test-5-fcity">Sanct-Peterburg</span>
+                            </p>
+                            <p class="flight-card__info flight-card__aircraft">
+                                <span class="flight-card__info-title">Airport of Departure: </span>
+                                <span class="test-5-from">Moscow Air</span>
+                            </p>
+                            <p class="flight-card__info flight-card__depature-date"><span class="flight-card__info-title">Departure Date: </span>
+                                <span class="test-5-dd">22.02.2024</span></p>
+                            <p class="flight-card__info flight-card__departure-time"><span class="flight-card__info-title">Departure Time: </span>
+                                <span class="test-5-dt">16:24</span></p>
+                            <p class="flight-card__info flight-card__arrival-time"><span class="flight-card__info-title">Arrival Time: </span>
+                                <span class="test-5-at">24.02.2024</span></p>
+                            <p class="flight-card__info flight-card__travel-time"><span class="flight-card__info-title">Destination City Name: </span>
+                                <span class="test-5-tcity">Moscow</span></p>
+                            <p class="test-5-to flight-card__info flight-card__travel-time"><span class="flight-card__info-title">Destination Airport Name: </span>
+                                <span class="test-5-to">Sanct-Peterburg air</span></p>
+                        </div>
+                        <div class="flight-card__footer">
+                            <p class="flight-card__info flight-card__footer-elem flight-card__cost"><span class="flight-card__info-title">Cost: </span>
+                                <span class="test-5-fp">100$</span></p>
+                        </div>
+                    </div>
+                    <div class="flight-card" id="4">
+                        <div class="flight-card__icon"><i class="fas fa-plane"></i></div>
+                        <div class="flight-card__body">
+                            <p class=" flight-card__info flight-card__number">
+                                <span class="flight-card__info-title">Flight Number: </span>
+                                <span class="test-5-fc">22</span>
+                            </p>
+                            <p class="flight-card__info flight-card__aircraft">
+                                <span class="flight-card__info-title">City Departure: </span>
+                                <span class="test-5-fcity">Sanct-Peterburg</span>
+                            </p>
+                            <p class="flight-card__info flight-card__aircraft">
+                                <span class="flight-card__info-title">Airport of Departure: </span>
+                                <span class="test-5-from">Moscow Air</span>
+                            </p>
+                            <p class="flight-card__info flight-card__depature-date"><span class="flight-card__info-title">Departure Date: </span>
+                                <span class="test-5-dd">22.02.2024</span></p>
+                            <p class="flight-card__info flight-card__departure-time"><span class="flight-card__info-title">Departure Time: </span>
+                                <span class="test-5-dt">16:24</span></p>
+                            <p class="flight-card__info flight-card__arrival-time"><span class="flight-card__info-title">Arrival Time: </span>
+                                <span class="test-5-at">24.02.2024</span></p>
+                            <p class="flight-card__info flight-card__travel-time"><span class="flight-card__info-title">Destination City Name: </span>
+                                <span class="test-5-tcity">Moscow</span></p>
+                            <p class="test-5-to flight-card__info flight-card__travel-time"><span class="flight-card__info-title">Destination Airport Name: </span>
+                                <span class="test-5-to">Sanct-Peterburg air</span></p>
+                        </div>
+                        <div class="flight-card__footer">
+                            <p class="flight-card__info flight-card__footer-elem flight-card__cost"><span class="flight-card__info-title">Cost: </span>
+                                <span class="test-5-fp">100$</span></p>
+                        </div>
+                    </div>
+                    <div class="flight-card" id="4">
+                        <div class="flight-card__icon"><i class="fas fa-plane"></i></div>
+                        <div class="flight-card__body">
+                            <p class=" flight-card__info flight-card__number">
+                                <span class="flight-card__info-title">Flight Number: </span>
+                                <span class="test-5-fc">23</span>
+                            </p>
+                            <p class="flight-card__info flight-card__aircraft">
+                                <span class="flight-card__info-title">City Departure: </span>
+                                <span class="test-5-fcity">Sanct-Peterburg</span>
+                            </p>
+                            <p class="flight-card__info flight-card__aircraft">
+                                <span class="flight-card__info-title">Airport of Departure: </span>
+                                <span class="test-5-from">Moscow Air</span>
+                            </p>
+                            <p class="flight-card__info flight-card__depature-date"><span class="flight-card__info-title">Departure Date: </span>
+                                <span class="test-5-dd">22.02.2024</span></p>
+                            <p class="flight-card__info flight-card__departure-time"><span class="flight-card__info-title">Departure Time: </span>
+                                <span class="test-5-dt">16:24</span></p>
+                            <p class="flight-card__info flight-card__arrival-time"><span class="flight-card__info-title">Arrival Time: </span>
+                                <span class="test-5-at">24.02.2024</span></p>
+                            <p class="flight-card__info flight-card__travel-time"><span class="flight-card__info-title">Destination City Name: </span>
+                                <span class="test-5-tcity">Moscow</span></p>
+                            <p class="test-5-to flight-card__info flight-card__travel-time"><span class="flight-card__info-title">Destination Airport Name: </span>
+                                <span class="test-5-to">Sanct-Peterburg air</span></p>
+                        </div>
+                        <div class="flight-card__footer">
+                            <p class="flight-card__info flight-card__footer-elem flight-card__cost"><span class="flight-card__info-title">Cost: </span>
+                                <span class="test-5-fp">100$</span></p>
+                        </div>
+                    </div>
+                    <div class="flight-card" id="4">
+                        <div class="flight-card__icon"><i class="fas fa-plane"></i></div>
+                        <div class="flight-card__body">
+                            <p class=" flight-card__info flight-card__number">
+                                <span class="flight-card__info-title">Flight Number: </span>
+                                <span class="test-5-fc">24</span>
+                            </p>
+                            <p class="flight-card__info flight-card__aircraft">
+                                <span class="flight-card__info-title">City Departure: </span>
+                                <span class="test-5-fcity">Sanct-Peterburg</span>
+                            </p>
+                            <p class="flight-card__info flight-card__aircraft">
+                                <span class="flight-card__info-title">Airport of Departure: </span>
+                                <span class="test-5-from">Moscow Air</span>
+                            </p>
+                            <p class="flight-card__info flight-card__depature-date"><span class="flight-card__info-title">Departure Date: </span>
+                                <span class="test-5-dd">22.02.2024</span></p>
+                            <p class="flight-card__info flight-card__departure-time"><span class="flight-card__info-title">Departure Time: </span>
+                                <span class="test-5-dt">16:24</span></p>
+                            <p class="flight-card__info flight-card__arrival-time"><span class="flight-card__info-title">Arrival Time: </span>
+                                <span class="test-5-at">24.02.2024</span></p>
+                            <p class="flight-card__info flight-card__travel-time"><span class="flight-card__info-title">Destination City Name: </span>
+                                <span class="test-5-tcity">Moscow</span></p>
+                            <p class="test-5-to flight-card__info flight-card__travel-time"><span class="flight-card__info-title">Destination Airport Name: </span>
+                                <span class="test-5-to">Sanct-Peterburg air</span></p>
+                        </div>
+                        <div class="flight-card__footer">
+                            <p class="flight-card__info flight-card__footer-elem flight-card__cost"><span class="flight-card__info-title">Cost: </span>
+                                <span class="test-5-fp">100$</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="passenger">
+            <div class="container">
+                <div class="passengers">
+                    <div class="user-card">
+                        <div class="user-card__left">
+                            <div class="user-card__img-wrapper">
+                                <img class="user-card__img" width="64" height="64" src="./media1/fontawesome-free-5.14.0-web/svgs/regular/user-circle.svg" alt="user">
+                            </div>
+                            <div class="user-card__content">
+                                <h2 class=" user-card__name"><span class="test-5-name"></span>Zhanarys <span class="test-5-last">Slamkhanuly</span></h2>
+                                <p class="user-card__role test-5-dob">Date of birth: 14.09.2004</p>
+                                <p class="user-card__role test-5-doc">Document number: 22</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="test-5-add add-passenger-btn primary-btn">Add a passenger</button>
+                <button class="test-5-remove remove-passenger-btn primary-btn primary-btn--danger">Remove a passenger</button>
+                <h2 class="test-5-price flight__final-cost">Final Cost: 100$</h2>
+                <a href="booking_management.html" class="test-5-book primary-btn">Make a Book</a>
+            </div>
+        </section>
+    </main>
+    <script src="booking.js"></script>
+</body>
+</html>
